@@ -1,0 +1,122 @@
+* {
+  font-family: Roboto, sans-serif;
+}
+
+body {
+    background-color: rgb(224, 222, 222);
+}
+
+.dark {
+  background-color: black;
+  color: white;
+}
+
+.light {
+  background-color: none;
+  color: black;
+}
+
+button {
+  padding: 8px;
+  width: 200px;
+  height: 50px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+main {
+  margin: 20px;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 2fr 15px 2fr 15px 3fr 1fr;
+  flex-wrap: wrap;
+}
+
+.leftcard {
+  /* border: 10px solid blue; */
+  display: grid;
+  grid-template-rows: 60% 40%;
+  height: 436px;
+  background-color: rgb(243, 241, 241);
+}
+
+.donut {
+  background-color: black;
+  height: 270px;
+  width: 100%;
+}
+
+.hole {
+  background-color: white;
+  width: 23.7%;
+  height: 64px;
+  border-radius: 5px;
+  margin: auto;
+  margin-top: 103px;
+}
+
+.textbox {
+    display: grid;
+    align-content: space-between;
+    margin-left: 5%;
+    
+}
+
+.midcard {
+  /* border: 10px solid red; */
+  background-color: rgb(243, 241, 241);
+  .circle {
+    width: 54px;
+    height: 54px;
+    background-color: black;
+    border-radius: 100px;
+    margin: auto;
+    margin-top: 29px;
+    
+    
+}
+    h2{
+        margin-top: 10px;
+        margin-bottom: 0;
+        font-size: 22px;
+    }
+    h4{
+        margin-top: 10px;
+        font-size: 18px;
+    }
+    ul{
+        list-style: none;
+        align-items: center;
+        padding: 0;
+        font-size: 14px;
+        color: rgb(100, 100, 100);
+        li{
+            margin-top: 15px;
+        }
+    }
+    button{
+        margin-top: 60px;
+
+    }
+
+}
+
+
+
+.rightcard {
+  /* border: 10px solid green; */
+  display: grid;
+  grid-template-rows: 70% 30%;
+  .box{
+    background-color: black;
+  }
+  .card-3-label{
+    p{
+        font-size: 20px;
+    }
+    h4{
+      font-weight: 500;  
+    }
+
+  }
+}
